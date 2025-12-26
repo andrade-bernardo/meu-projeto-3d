@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Projeto Interativo Next.js + Spline 3D
+Este projeto é uma interface moderna e imersiva desenvolvida com Next.js 15, focada em elevar a experiência do usuário através de elementos tridimensionais interativos.
 
-## Getting Started
+🛠️ Tecnologias Utilizadas
+Framework: Next.js (App Router)
 
-First, run the development server:
+Estilização: Tailwind CSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Componentes de UI: shadcn/ui
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Renderização 3D: @splinetool/react-spline
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Animações: Framer Motion
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Linguagem: TypeScript
 
-## Learn More
+✨ Funcionalidades
+Cena 3D Interativa: Um modelo robótico renderizado em tempo real que responde a comandos do mouse.
 
-To learn more about Next.js, take a look at the following resources:
+Efeito Spotlight: Iluminação dinâmica de fundo que segue o movimento do cursor, proporcionando profundidade ao layout escuro.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Design Responsivo: Card estilizado com gradientes modernos e tipografia otimizada para leitura.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Performance: Carregamento otimizado de ativos 3D utilizando Suspense e lazy loading do React.
 
-## Deploy on Vercel
+📖 Como rodar este projeto
+Clone o repositório.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Instale as dependências: npm install.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Inicie o servidor de desenvolvimento: npm run dev.
+
+Acesse http://localhost:3000.
